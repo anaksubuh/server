@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tambahkan path PHP dari XAMPP
-export PATH=$PATH:/c/xampp/php
+export PATH="/c/xampp/php:$PATH"
 
 # Load GitHub token dari file .env
 if [ -f .env ]; then
